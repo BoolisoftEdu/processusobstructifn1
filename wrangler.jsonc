@@ -1,0 +1,24 @@
+{
+  "name": "quiz-ue28-processus-obstructifs-cloudflare",
+  "main": "cloudflare/worker.mjs",
+  "compatibility_date": "2026-11-06",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "vars": {
+    "ASSET_HASHES": {
+      "/index.html": "89e060d7892580122de5c8bb16d482fdfb7b7cafb4e097ec80b5f42daed86a85",
+      "/static/style.css": "35f3298c8b286f6ff854d2be7cc5c97aac587e5098c1b5e0b2cd56445d224b65",
+      "/static/app.js": "9cd4b0ba145b2f087aedcebf7ea4e3a7a8a35a53922ab459de711916539ff358"
+    }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "quiz-ue28-processus-obstructifs-cloudflare",
+      "database_id": "REMPLACER_PAR_ID_D1"
+    }
+  ]
+}
